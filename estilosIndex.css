@@ -1,0 +1,430 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    /*background-color: rgba(243,241,255,0.7);*/
+}
+
+body{
+    background: rgba(243, 241, 255, 0.7);
+}
+
+/*Inicio estilos del header*/
+header{
+    width: 100%;
+    height: 100px;
+}
+
+.continer-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.logo{
+    width: 362px;
+    height: 85px;
+    margin-left: 49px;
+}
+
+.logo img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+    background-color: #ffffff;
+    margin-right: 130px;
+    
+}
+
+header nav ul li a{
+    background-color: #ffffff;
+    width: 103px;
+    text-decoration: none;
+    height: 50px;
+    color:#1A059B;
+    font-family: Inder;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+header nav ul li a div{
+    width: 200px;
+    padding: 8px;
+    background: linear-gradient(270deg, #5B7CF0 0%, rgba(88, 31, 249, 0.94) 67.59%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    margin-top:-8px;
+    text-align: center;
+    color:#ffffff;
+    margin-right: 43px;
+}
+
+/*Fin estilos header*/
+
+/*Inicio estilos Main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+/*inicio estilos seccón de las chichas*/
+
+.tipo{
+    display: flex;
+    flex-direction: column;
+}
+
+.studen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img{
+    width: 575px;
+    height: 661px;
+    margin-left: 76px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.titulo{
+    height: 150px;
+    width: 523px;
+    font-family: Inder;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    color: #1A059B;
+}
+
+.sub{
+    width: 593px;
+    height: 78px;
+    font-family: Inder;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #1A059B;
+    margin-top:60px;
+}
+
+.option{
+    width: 347px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:47px;
+}
+
+.option img{
+    margin-right: 47px;
+}
+
+.option a{
+    text-decoration: none;
+    font-family: Inder;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #1A059B;
+}
+
+.tutor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.object{
+    width: 657px;
+    height: 468px;
+    position: relative;
+    margin-right: 109px;
+}
+
+.margin{
+    margin-left: 76px;
+    text-align: right;
+}
+
+.text{
+    position: relative;
+    display: block;
+    width: 404px;
+    margin-left: 189px;
+}
+
+.option2{
+    width: 347px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:47px;
+    margin-left: 295px;
+}
+
+.option2 a{
+    text-decoration: none;
+    font-family: Inder;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #1A059B;
+}
+
+.oval{
+    height: 73px;
+    width: 73px;
+    border-radius: 50px;
+    background: linear-gradient(211.81deg, #5B7CF0 8.24%, #581FF9 93.01%);
+    margin-left: 47px;
+}
+
+.oval img{
+    height: 31.29px;
+    width: 31.29px;
+    position: relative;
+    display: block;
+    margin: 20px auto;
+}
+/*fin estilos seccón de las chichas*/
+
+/*Inicio estilos selección*/
+.seleccion{
+    background-image: url('img/Section/bg.png');
+    width: 100%;
+    height: 496px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.width{
+    width: 100%;
+}
+
+.seleccion .titulo{
+    width: 1157px;
+    height: 184px;
+    font-family: Inder;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+}
+
+.opcion{
+    width: 1157px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+}
+
+.opcion div{
+    width: 500px;
+    height: 75px;
+    background: linear-gradient(270deg, #EFB178 0%, rgba(240, 120, 103, 0.94) 67.59%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.opcion div a{
+    text-decoration: none;
+    font-family: Inder;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+/*Fin estilos selección*/
+
+/*Inicio estilos footer*/
+footer{
+    width: 100%;
+    height: 433px;
+    background-color: #333333;
+}
+
+.container-footer{
+    width: 81%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between; 
+}
+
+.top h2{
+    font-family: Inder;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top:58px;
+}
+
+.top img{
+    width: 160px;
+    height: 48px;
+    margin-top:72px;
+    margin-bottom: 33px;
+    margin-right: -5px;
+}
+
+.space{
+    width: 1230px;
+    height: 1px;
+    margin:0 auto;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+}
+
+.mid{
+    display: flex;
+    flex-direction: row;
+}
+
+.mid h2{
+    width: 30%;
+    font-family: Inder;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top:22px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.blue{
+    margin-top:21px;
+    margin-bottom: 32px;
+    font-family: Inder;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #6483F6;
+}
+
+.info-contact ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.info-contact ul li p{
+    font-family: Inder;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.nestor{
+    height: 32px;
+    width: 215px;
+    margin-right: 55px;
+}
+
+.blackboy{
+    height: 32px;
+    width: 274px;
+    margin-right: 34px;
+}
+
+.alverto{
+    height: 32px;
+    width: 225px;
+}
+
+.bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.bot .p1{
+    width: 342px;
+    height: 32px;
+    font-family: Inder;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.bot .p2{
+    width: 213px;
+    height: 32px;
+    font-family: Inder;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.502972);
+}
